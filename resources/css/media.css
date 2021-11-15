@@ -1,0 +1,80 @@
+/* big tablet to 1200px (width samller then the 1140px row) */
+@media only screen and (max-width:1200px ) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%; }
+}
+
+/* small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width:1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    } 
+    .steps-box2, .steps-box1 { margin-top: 10px;}
+    .steps-box2 {margin-top: 10px;}
+    .row-step { margin-bottom: 40px;}
+    .row-step:last-of-type { margin-bottom: 60px;}
+    .app-img {width: 50%;}
+
+    .icon-small {
+        width: 16px;
+        margin-right: 5px;
+    }
+    .city-features { font-size: 90%;}
+
+    .plan-box {
+        width: 100%; 
+        margin-left: 0;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form { width: 80%; }
+}
+
+/* small phone to small tablet:from 481px to 767 */
+@media only screen and (max-width:767px) {
+    .html {font-size: 16px;}
+    .main-nav {display: none;}
+    .section {padding: 30px 0;}
+    .hero-text-box,
+    .row { padding: 0 4%; }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    h1 {font-size: 180%;}
+    h1 {font-size: 150%;}
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .row-step div {
+        width: 40px;
+        height: 40px;
+        font-size: 120%;
+        padding: 5px;
+        margin-right: 15px;
+    }
+    .row-step { margin-bottom: 20px;}
+    .row-step:last-of-type { margin-bottom: 20px;}
+    .app-img {width: 40%;}
+    .steps-box1 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+}
+
+/* small phone:from 0px to 480px */
+@media only screen and (max-width:480px) {
+    .contact-form { width: 60%; }
+    h1 {font-size: 120%;}
+    h1 {font-size: 90%;}
+}
